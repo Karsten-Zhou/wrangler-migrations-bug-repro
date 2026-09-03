@@ -1,0 +1,12 @@
+{
+	"name": "my-app",
+	"main": "server/index.ts",
+	"compatibility_date": "2026-09-01",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"migrations_dir": "migrations" // with or without this line
+			// no `database_id` so wrangler will auto-provision a new database on first deploy
+		}
+	]
+}
